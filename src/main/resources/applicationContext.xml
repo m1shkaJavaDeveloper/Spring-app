@@ -10,11 +10,11 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="ru.alishev.springcourse.ClassicalMusic">
+          class="ru.zharov.springcourse.ClassicalMusic">
     </bean>
 
     <bean id="musicPlayer"
-          class="ru.alishev.springcourse.MusicPlayer">
+          class="ru.zharov.springcourse.MusicPlayer">
         <property name="music" ref="musicBean"/>
 
         <property name="name" value="${musicPlayer.name}"/>

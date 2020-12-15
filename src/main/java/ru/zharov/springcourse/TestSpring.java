@@ -1,4 +1,4 @@
-package ru.alishev.springcourse;
+package ru.zharov.springcourse;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

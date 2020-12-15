@@ -1,4 +1,4 @@
-package ru.alishev.springcourse;
+package ru.zharov.springcourse;
 
 public class ClassicalMusic implements Music{
     @Override
